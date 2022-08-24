@@ -1,0 +1,444 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Fri Aug 19 08:53:07 2022
+
+# Variables
+
+# makefile (from `makefile', line 202)
+TARGET_EXE := build/blinky.exe
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_BASEPATH = C:\GTK
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 188)
+CPPFLAGS = -c -g -O -fno-pie -std=c++11 -pedantic -Wall -Wextra -fno-rtti -fno-exceptions $(INCLUDES) $(DEFINES)
+# environment
+PLATFORMIO_IDE = 2.5.2
+# makefile (from `makefile', line 116)
+INCLUDES := -I.  -I../../../include -I../../../src -I../../../ports/win32-qv
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/Courses/Embbedded and Microcontrollers/Udemy_Embedded_System_Design_using_UML_State_Machines/StateMachinePlayGround_Code/UML_ProTimer
+# makefile (from `makefile', line 129)
+LINK := g++   
+# default
+SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+# makefile (from `makefile', line 136)
+RM := rm
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from `makefile', line 185)
+CFLAGS = -c -g -O -fno-pie -std=c11 -pedantic -Wall -Wextra -W $(INCLUDES) $(DEFINES)
+# environment
+ONEDRIVE = D:\Drives\OneDrive
+# makefile (from `makefile', line 200)
+CPP_OBJS := blinky.o bsp.o main.o
+# makefile (from `makefile', line 206)
+CPP_DEPS_EXT := build/blinky.d build/bsp.d build/main.d
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\khale\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from `makefile', line 58)
+CONF := dbg
+# environment
+PROGRAMDATA = C:\ProgramData
+# makefile (from `makefile', line 127)
+CPP := g++
+# environment
+VSCODE_CWD = C:\Users\khale\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# makefile (from `makefile', line 20)
+PROJECT := blinky
+# environment
+USERPROFILE = C:\Users\khale
+# makefile (from `makefile', line 42)
+C_SRCS := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from `makefile', line 115)
+VPATH := .  ../../../src/qf ../../../ports/win32-qv
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LIB = C:\GTK\LIB;
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21756_UQDFRXDNYCQRQZFB
+# environment
+COMPUTERNAME = DESKTOP-R0LPFEQ
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from `makefile', line 199)
+C_OBJS := 
+# makefile (from `makefile', line 45)
+CPP_SRCS := blinky.cpp bsp.cpp main.cpp
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AVR32_HOME = C:\WinAVR-20100110
+# environment
+USERNAME = khale
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from `makefile', line 55)
+DEFINES := -DQP_API_VERSION=9999
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\khale\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-R0LPFEQ
+# environment
+ONEDRIVECONSUMER = D:\Drives\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-R0LPFEQ
+# makefile (from `makefile', line 135)
+MKDIR := mkdir
+# environment
+PLATFORMIO_PATH = C:\Users\khale\.platformio\python3;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\GTK\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\qp\qtools\mingw32\bin;C:\qp\qtools\bin;C:\Program Files\Conan\conan;C:\Users\khale\AppData\Local\Microsoft\WindowsApps;C:\Users\khale\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\khale\.dotnet\tools;C:\Users\khale\anaconda3\Scripts;C:\Users\khale\anaconda3;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\GTK\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\qp\qtools\mingw32\bin;C:\qp\qtools\bin;C:\Program Files\Conan\conan;C:\Users\khale\AppData\Local\Microsoft\WindowsApps;C:\Users\khale\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\khale\.dotnet\tools;C:\Users\khale\anaconda3\Scripts;C:\Users\khale\anaconda3
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from `makefile', line 203)
+C_OBJS_EXT := 
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\GTK\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\qp\qtools\mingw32\bin;C:\qp\qtools\bin;C:\Program Files\Conan\conan;C:\Users\khale\AppData\Local\Microsoft\WindowsApps;C:\Users\khale\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\khale\.dotnet\tools;C:\Users\khale\anaconda3\Scripts;C:\Users\khale\anaconda3
+# makefile (from `makefile', line 137)
+RMDIR := rmdir
+# makefile (from `makefile', line 126)
+CC := gcc
+# makefile (from `makefile', line 195)
+LINKFLAGS := -no-pie
+# default
+MAKE_VERSION := 3.81
+# makefile (from `makefile', line 71)
+QP_PORT_DIR := ../../../ports/win32-qv
+# makefile
+.DEFAULT_GOAL := all
+# environment
+INCLUDE = C:\GTK\INCLUDE;C:\GTK\INCLUDE\GTK-2.0;C:\GTK\INCLUDE\GLIB-2.0;C:\GTK\INCLUDE\PANGO-1.0;C:\GTK\INCLUDE\CAIRO;C:\GTK\INCLUDE\ATK-1.0;C:\GTK\INCLUDE\GTKGLEXT-1.0;C:\GTK\LIB\GTK-2.0\INCLUDE;C:\GTK\LIB\GLIB-2.0\INCLUDE;C:\GTK\LIB\GTKGLEXT-1.0\INCLUDE;C:\GTK\INCLUDE\LIBGLADE-2.0;C:\GTK\INCLUDE\LIBXML2;
+# makefile (from `makefile', line 138)
+TARGET_EXT := .exe
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\khale\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\be4742f37bbadafc84306b7eeecbdba8-1.70.2-main-sock
+# makefile (from `makefile', line 205)
+CPP_OBJS_EXT := build/blinky.o build/bsp.o build/main.o
+# environment
+HOMEPATH = \Users\khale
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\khale\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# makefile (from `makefile', line 73)
+LIB_DIRS :=  -L../../../ports/win32-qv/dbg
+# environment
+TEMP = C:\Users\khale\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `makefile', line 182)
+BIN_DIR := build
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 74)
+LIBS :=  -lqp -lws2_32
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 4e03
+# makefile (from `makefile', line 34)
+QPCPP := ../../..
+# environment
+QTOOLS = C:\qp\qtools
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from `makefile', line 204)
+C_DEPS_EXT := 
+# environment
+VSCODE_PID = 21756
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-R0LPFEQ
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=20/187=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/Courses/Embbedded and Microcontrollers/Udemy_Embedded_System_Design_using_UML_State_Machines/StateMachinePlayGround_Code/UML_ProTimer, mtime 1660771523): 13 files, 6 impossibilities.
+# C:\GTK\bin (key C:/GTK/bin, mtime 1659104306): 104 files, no impossibilities.
+# C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1652709187): 75 files, no impossibilities.
+# ../../../ports/win32-qv: could not be stat'd.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1652709198): 99 files, no impossibilities so far.
+# ../../../src/qf: could not be stat'd.
+# C:\Program Files (x86)\VMware\VMware Player\bin\ (key C:/Program Files (x86)/VMware/VMware Player/bin/, mtime 1659127102): 4 files, no impossibilities.
+
+# 295 files, 6 impossibilities in 7 directories.
+
+# Implicit Rules
+
+build/%.d: %.c
+#  commands to execute (from `makefile', line 224):
+	$(CC) -MM -MT $(@:.d=.o) $(CFLAGS) $< > $@
+	
+
+build/%.d: %.cpp
+#  commands to execute (from `makefile', line 227):
+	$(CPP) -MM -MT $(@:.d=.o) $(CPPFLAGS) $< > $@
+	
+
+build/%.o: %.c
+#  commands to execute (from `makefile', line 230):
+	$(CC) $(CFLAGS) $< -o $@
+	
+
+build/%.o: %.cpp
+#  commands to execute (from `makefile', line 233):
+	$(CPP) $(CPPFLAGS) $< -o $@
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build/blinky.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 15:34:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/blinky.exe
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/bsp.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: clean show clean show
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 15:34:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/bsp.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/blinky.exe: build/blinky.o build/bsp.o build/main.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 220):
+	$(CPP) $(CPPFLAGS) $(QPCPP)/include/qstamp.cpp -o $(BIN_DIR)/qstamp.o
+	$(LINK) $(LINKFLAGS) $(LIB_DIRS) -o $@ $^ $(BIN_DIR)/qstamp.o $(LIBS)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 247):
+	$(RM) $(BIN_DIR)/*.*
+	$(RMDIR) $(BIN_DIR)
+	
+
+show:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 251):
+	@echo PROJECT      = $(PROJECT)
+	@echo TARGET_EXE   = $(TARGET_EXE)
+	@echo VPATH        = $(VPATH)
+	@echo C_SRCS       = $(C_SRCS)
+	@echo CPP_SRCS     = $(CPP_SRCS)
+	@echo C_DEPS_EXT   = $(C_DEPS_EXT)
+	@echo C_OBJS_EXT   = $(C_OBJS_EXT)
+	@echo C_DEPS_EXT   = $(C_DEPS_EXT)
+	@echo CPP_DEPS_EXT = $(CPP_DEPS_EXT)
+	@echo CPP_OBJS_EXT = $(CPP_OBJS_EXT)
+	
+
+# Not a target:
+build/blinky.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/50=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 4
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4047 / max = 4047 / min = 4047 / avg = 4047
+
+# Finished Make data base on Fri Aug 19 08:53:07 2022
+
+ 
+make.exe: *** No rule to make target `build/bsp.o', needed by `build/blinky.exe'.  Stop.
+

@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "UML_ProTimer.ino",
+    "output":".\\hex"
+}
